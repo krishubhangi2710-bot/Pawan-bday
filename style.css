@@ -287,3 +287,86 @@ h1 {
     }
 
 }
+/* MOBILE FIX */
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .hero,
+    .letter-section,
+    .final-section {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .hero {
+        padding: 55px 16px 40px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .countdown {
+        width: 100%;
+        gap: 6px;
+    }
+
+    .time-box {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+    }
+
+    .photo-frame {
+        width: min(240px, 80vw);
+        max-width: 100%;
+    }
+
+    .letter-section {
+        padding: 65px 15px;
+    }
+
+    .letter {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        padding: 35px 22px;
+    }
+
+    .letter p {
+        font-size: 17px;
+        line-height: 1.65;
+    }
+
+    .final-section {
+        padding: 60px 20px;
+    }
+
+    .final-content {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .final-content h2 {
+        font-size: 40px;
+    }
+
+    #surpriseBtn {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
